@@ -38,3 +38,11 @@ or any program that's time complexity increase by square to the input.
 If we have a time complexity of O(n^2+n), in that case the dominant value is n^2 here 
 we can ignore/drop the less or non dominant term and consider the time complexity to be
 O(n^2).
+
+
+<h1>Logarithmic time complexity</h1>
+In algorithmic analysis, a time complexity of O(log n) is often referred to as "logarithmic time complexity." Algorithms with logarithmic time complexity are highly efficient because their running time increases very slowly as the input size, denoted by "n," grows. As "n" increases, the running time grows logarithmically rather than linearly or quadratically.
+
+Logarithmic time complexity is typically associated with algorithms that divide the input into smaller and smaller portions, commonly by employing a divide-and-conquer approach. Binary search is a classic example of an algorithm with O(log n) time complexity. In binary search, the input is repeatedly divided in half, and the algorithm quickly narrows down the search space to find the desired element.
+
+Logarithmic time complexity is much more desirable than linear (O(n)) or quadratic (O(n^2)) time complexities for large input sizes because it signifies efficient performance that doesn't significantly degrade as the input size grows.
