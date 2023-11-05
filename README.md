@@ -32,3 +32,9 @@ as the input size grows to infinity
 <h1><b>Quadratic time complexity</b></h1>
 the quadratic time complexity refers to the time complexity for nested loops 
 or any program that's time complexity increase by square to the input.
+
+
+<h1>Non Dominant term</h1>
+If we have a time complexity of O(n^2+n), in that case the dominant value is n^2 here 
+we can ignore/drop the less or non dominant term and consider the time complexity to be
+O(n^2).
