@@ -28,3 +28,7 @@ simplified and asymptotic way.
 Constant factors and lower-order terms are often ignored because 
 they don't provide meaningful information about the algorithm's scalability and efficiency 
 as the input size grows to infinity
+
+<h1><b>Quadratic time complexity</b></h1>
+the quadratic time complexity refers to the time complexity for nested loops 
+or any program that's time complexity increase by square to the input.
