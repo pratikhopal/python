@@ -11,14 +11,14 @@ Run time complexities
 
 
 
-<h6>Constant time complexity O(1)</h6>
+<h1>Constant time complexity O(1)</h1>
 It is when the time required to run the operation is constant.
 
 
-<h6>N time complexities O(n) linear time complexity</h6>
+<h1>N time complexities O(n) linear time complexity</h1>
 as the numner of input grows the time complexity also grows proportionately.
 
-<h6>Drop constant complexity</h6>.
+<h1>Drop constant complexity</h1>.
 Now considering the function has 2 loops with each loop with time complexity of O(n)
 so the time complexity for the function will O(n)+O(n) = O(2n).
 but we need to drop the constant as it wont affect In algorithm analysis and "big O" notation, 
