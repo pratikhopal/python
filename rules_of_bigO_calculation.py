@@ -7,7 +7,7 @@
 #
 #Rule 4:  A loop with a controlled parameter which does divide and conqurer.
 #
-#Rule 5:  When dealing with multiple statements just add them ...........
+#Rule 5:  When dealing with multiple statements just add them ........... example below
 
 
 
@@ -15,11 +15,11 @@
 from array import array
 
 
-myarray = array('i',[1,2,3,4,5,6,7])
+myarray = array('i',[1,2,3,7,5,6,4])
 
 def find_biggest_number(myarray):
     biggest_number = myarray[0]                 #--------------> O(1)
-    for i in (1,len(myarray)-1):                #--------------> O(n)
+    for i in range (1,len(myarray)-1):                #--------------> O(n)
         if biggest_number < myarray[i]:         #--------------> O(1)
             biggest_number=myarray[i]           #--------------> O(1)
     print(biggest_number)                       #--------------> O(1)
