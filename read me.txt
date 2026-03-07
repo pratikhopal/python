@@ -1,0 +1,21 @@
+​To build this without jumping straight into code, think of it as three main "layers":
+​1. The Storage (Where do the tasks live?)
+​Since you want your tasks to be there the next day, you can't just keep them in a Python list (which disappears when the program stops).
+​The Medium: Use a simple text file (tasks.txt) or, even better, a JSON file (tasks.json).
+​The Format: Each task should be a "dictionary" of info:
+​A unique id (e.g., 1, 2, 3)
+​The description (e.g., "Buy groceries")
+​The status (e.g., "todo", "in-progress", or "done")
+​2. The Logic (The "Brains" of the app)
+​You need to write functions that handle the CRUD operations (Create, Read, Update, Delete):
+​Add: Take a string from the user, give it an ID, and append it to your file.
+​List: Read the file and print every task in a pretty format in the terminal.
+​Update: Find a task by its ID and change its status.
+​Delete: Find a task by its ID and remove it from the file.
+​3. The Interface (How does the user talk to it?)
+​In Python, you’ll use a module called sys (specifically sys.argv) to read what the user types after the file name.
+​For example, if the user types:
+python task_manager.py add "Learn Python"
+​sys.argv[1] is "add" (the command)
+​sys.argv[2] is "Learn Python" (the data)
+​Your code will look at that first word ("add") and decide which function to run.
